@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChiquePiggy.Service
+namespace ChiquePiggy.Helpers.Actions
 {
-    public class Class1
+    public static class CaixaActions
     {
+        public const string Inicio = "Inicio";        
     }
 }

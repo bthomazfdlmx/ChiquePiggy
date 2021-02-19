@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChiquePiggy.Caching
+namespace ChiquePiggy.Services.Interfaces
 {
-    public class Class1
+    public interface ICaixaService
     {
+        int ConsultarSaldoPontos(int id);
     }
 }
