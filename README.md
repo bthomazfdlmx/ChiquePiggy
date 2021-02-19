@@ -26,6 +26,6 @@ Montar um script que dado um ID de cliente retorne todas as pontuações dele. E
 # Observações
 
 A base do projeto pode ser modificada por você, deixamos ela montada para dar o start para qualquer pessoa.
-Deixamos uma classe para você armazenar os dados do sistema, caso você não queira depender de outra classe externa.
+A class library de caching está feita para você armazenar os dados do sistema, caso você não queira depender de uma biblioteca externa/Sessão para isso.
 
 Boa sorte!
