@@ -22,6 +22,7 @@ Para validar conceitos básicos de banco de dados, você deverá montar um scrip
 - Uma tabela de histórico, onde ligue o cliente da tabela acima e suas transações como: Valor da compra, data da transação e pontos ganhos na compra ou pontos debitados pelo aceito do requesito "v".
 
 Montar um script que dado um ID de cliente retorne todas as pontuações dele. Esse relatório deve conter pelo menos o nome do cliente e as informações da tabela de histórico.
+
 Montar um script que agrupe todas as transações de um cliente por data, sendo o formato das datas dia/mês/ano
 
 Você deve deixar os scripts dentro do projeto ChiquePiggy.Database
