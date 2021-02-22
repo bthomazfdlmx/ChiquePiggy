@@ -28,8 +28,10 @@ Você deve deixar os scripts dentro do projeto ChiquePiggy.Database
 
 # Observações
 
-Coloque
+Coloque o desenvolvimento deste projeto no seu github e nos envie o link quando finalizar.
+
 A base do projeto pode ser modificada por você, deixamos ela montada para dar o start para qualquer pessoa.
+
 A class library de caching está feita para você armazenar os dados do sistema, caso você não queira depender de uma biblioteca externa/Sessão para isso.
 
 Boa sorte!
