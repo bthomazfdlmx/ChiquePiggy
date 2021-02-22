@@ -201,6 +201,10 @@
       <Project>{9832bbad-34e8-43d1-86e0-0458805652f7}</Project>
       <Name>ChiquePiggy.Helpers</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ChiquePiggy.Models\ChiquePiggy.Models.csproj">
+      <Project>{70e29809-9408-4cfa-9e80-b42814afdc3c}</Project>
+      <Name>ChiquePiggy.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ChiquePiggy.Service\ChiquePiggy.Service.csproj">
       <Project>{6746322b-7631-4ba4-8ca4-82428c241669}</Project>
       <Name>ChiquePiggy.Service</Name>

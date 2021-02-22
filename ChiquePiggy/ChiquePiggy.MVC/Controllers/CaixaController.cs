@@ -1,4 +1,5 @@
 ﻿using ChiquePiggy.Helpers.Views;
+using ChiquePiggy.Models;
 using ChiquePiggy.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,8 @@ namespace ChiquePiggy.MVC.Controllers
 
         public ActionResult Inicio(int id = 0)
         {
-            ViewBag.Saldo = _caixaService.ConsultarSaldoPontos(id);
+            //Exemplo chamada aos serviços
+            SaldoClienteViewModel saldoModel = _caixaService.ConsultarSaldoPontos(id);            
             return View(CaixaViews.Inicio);
         }
     }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6746322B-7631-4BA4-8CA4-82428C241669}</ProjectGuid>
+    <ProjectGuid>{60CD8E6A-3E44-467F-BBDC-20FEEF03ED7B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChiquePiggy.Service</RootNamespace>
-    <AssemblyName>ChiquePiggy.Service</AssemblyName>
+    <RootNamespace>ChiquePiggy.Domain</RootNamespace>
+    <AssemblyName>ChiquePiggy.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,27 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CaixaService.cs" />
-    <Compile Include="Interfaces\ICaixaService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ChiquePiggy.Caching\ChiquePiggy.Caching.csproj">
-      <Project>{171f8f6d-cfc8-405f-ac94-dd9f887c1c45}</Project>
-      <Name>ChiquePiggy.Caching</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ChiquePiggy.Domain\ChiquePiggy.Domain.csproj">
-      <Project>{60cd8e6a-3e44-467f-bbdc-20feef03ed7b}</Project>
-      <Name>ChiquePiggy.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ChiquePiggy.Helpers\ChiquePiggy.Helpers.csproj">
-      <Project>{9832bbad-34e8-43d1-86e0-0458805652f7}</Project>
-      <Name>ChiquePiggy.Helpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ChiquePiggy.Models\ChiquePiggy.Models.csproj">
-      <Project>{70e29809-9408-4cfa-9e80-b42814afdc3c}</Project>
-      <Name>ChiquePiggy.Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
