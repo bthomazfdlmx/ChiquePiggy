@@ -13,10 +13,8 @@ namespace ChiquePiggy.Services
     public class CaixaService : ICaixaService
     {    
         public SaldoClienteViewModel ConsultarSaldoPontos(int id)
-        {
-            if(id == 0) return new SaldoClienteViewModel(0,false);
-            //TODO: Consultar o saldo de pontos atual do cliente            
-            return new SaldoClienteViewModel(0,true);
+        {            
+            return new SaldoClienteViewModel(0);
         }
     }
 }

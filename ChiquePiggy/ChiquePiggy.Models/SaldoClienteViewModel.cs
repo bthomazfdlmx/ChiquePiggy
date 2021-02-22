@@ -13,15 +13,11 @@ namespace ChiquePiggy.Models
 
         }
 
-        public SaldoClienteViewModel(int saldo, bool existente)
+        public SaldoClienteViewModel(int saldo)
         {
             Saldo = saldo;
-            Existente = existente;
         }
 
-        public int Saldo { get; set; }
-
-        public bool Existente { get; set; }
-
+        public int Saldo { get; private set; }
     }
 }
