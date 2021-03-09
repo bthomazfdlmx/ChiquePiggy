@@ -13,7 +13,7 @@ Para automatizar esse processo a ChiquePiggy precisará que você crie um sistem
   -    Uma compra de R$50,49 deve ser considerado como 51 pontos.
 - 3) O Sistema deve pontuar o cliente com pontuação dobrada em toda segunda-feira e terça-feira;
 - 4) O Sistema deve avisar o operador do caixa, quando o cliente tiver 100 pontos ou mais;
-- 5) O Sistema deve conter um botão para o operador dar baixa na pontuação do cliente, quando o mesmo aceitar a camisa de graça oferecida pela ChiquePiggy.
+- 5) O Sistema deve conter um botão para o operador dar baixa na pontuação do cliente, quando o mesmo aceitar a camisa de graça oferecida pela ChiquePiggy, quando a baixa for realizada o sistema deve debitar 100 pontos do saldo de pontuação do cliente.
 
 # Parte escrita
 
