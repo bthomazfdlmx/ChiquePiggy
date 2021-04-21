@@ -6,7 +6,7 @@ A Loja de roupas ChiquePiggy deseja oferecer vantagens para os seus clientes, co
 Quando o cliente chegar aos 100 pontos ou mais, a ChiquePiggy irá oferecer uma camisa de graça para o cliente, se ele aceitar será retirado 100 pontos do seu saldo no programa de fidelidade.
 Para automatizar esse processo a ChiquePiggy precisará que você crie um sistema para o operador do caixa.
 
-# Requisidos do sistema
+# Requisitos do sistema
 
 - 1) O Sistema deve conter uma interface visual, onde o operador do caixa colocará o ID do cliente e o valor total da compra do cliente. Onde o ID do cliente deve ser um número inteiro, clientes com IDs que não contenham na base em memória será necessário avisar o operador do caixa que é a primeira compra do cliente;
 - 2) O Sistema deve pontuar o cliente pelo valor total da compra que ele realizou, quando há centavos envolvidos o sistema deve arredondar a pontuação, conforme exemplo abaixo:
