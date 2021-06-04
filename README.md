@@ -1,4 +1,4 @@
-# Processo Seletivo Programador .Net Junior
+# Processo Seletivo Programador .Net
 
 # Escopo
 
